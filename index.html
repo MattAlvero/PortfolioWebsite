@@ -1,83 +1,104 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <!-- required meta -->
     <meta charset="utf-8">
-    <title>Matt Alvero - Portfolio</title>
-    <meta name="description" content="My online portfolio created entirely by myself, Matthew Alvero">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--CSS Links-->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--JS Links-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css">
+
+    <!-- Material Design JS -->
+    <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+
+    <title>Matt Alvero</title>
   </head>
 
   <body>
+    <!-- NavBar -->
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Matthew Alvero - Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navItems" aria-controls="navItems" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <header>
-      <div class="topnav" id="navbar">
-        <a href="#contact">Contact</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#about">About Me</a>
-        <a href="#welcome" class="active">Home</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+      <div class="collapse navbar-collapse" id="navItems">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </nav>
 
-    <section id="welcome">
-      <h1>Welcome to my online portfolio</h1>
-      <p>All coding for this website has been done completely by me. I hope you enjoy my work.</p>
-    </section>
+    <!-- About section -->
+    <div class="container-fluid" id="about">
+      <div class="row d-flex justify-content-md-center align-items-center">
+        <div class="col-sm-6">
+          <h1>About me</h1>
+          <p>Hello! My name is Matthew Alvero. I currently attend the University of Illinos - Chicago (UIC).
+            I am a Sophomore Computer Science student with an expected graduation in Spring of 2022. I enjoy
+          playing videogames, binge watching netflix, and spending time with my girlfriend! Welcome to my
+        portfolio website!</p>
+        </div>
+        <div class="col-sm-6">
+          <img src="https://image.shutterstock.com/image-vector/person-gray-photo-placeholder-man-260nw-1258445428.jpg" alt="placeholder" class="rounded">
+        </div>
+      </div>
+    </div>
 
-    <section id="about">
-      <h1>About Me</h1>
-      <p>
-        Hello! I am Matthew Alvero. At the time of writing this I have just graduated from high school at Hinsdale Central High school
-        of the class of 2018. I am heading into my freshman year of college at the University of Illinois at Chicago where I will be
-        majoring in computer science in the college of engineering.
-      </p>
-      <p>
-        Some cools facts about me are that I love to play video games. The current game that I am putting a lot of hours into
-        is the popular game called Fortnite. However I do like to change it up a bit and play games such as PUBG, Battlefield 4, CSGO,
-        League of Legends and pretty much anything that I can play with multiple players, including my friends. I also stream
-        on Twitch whenever I have the time to. You can check it out at <a href="https://twitch.tv/csstark">twitch.tv/csstark</a>
-        Another cool fact about me is that I like to lift weights. I like to get as much activity out of my day and hitting the gym is
-        a great way for me to relief stress and to get healthier.
-      </p>
-      <p>
-        My future plans as of now are to start and complete the Army ROTC program at UIC and commission as a second lieutenant in the
-        Army and hopefully pursue a career related to computer science in the military such as military intelligence or cyber electromagnetic.
-        After the military I hope to continue utilizing my computer science degree in the defense industry.
-      </p>
-    </section>
+    <!-- Portfolio Section -->
+    <div class="container-fluid" id="portfolio">
+      <div class="row d-flex justify-content-md-center align-items-center">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="row d-flex justify-content-md-center align-items-center">
+        <div class="col-sm-4">
+          <img src="https://oie.msu.edu/_assets/images/placeholder/placeholder-200x200.jpg" alt="placeholder" class="rounded-circle">
+        </div>
+        <div class="col-sm-4">
+          <img src="https://oie.msu.edu/_assets/images/placeholder/placeholder-200x200.jpg" alt="placeholder" class="rounded-circle">
+        </div>
+        <div class="col-sm-4">
+          <img src="https://oie.msu.edu/_assets/images/placeholder/placeholder-200x200.jpg" alt="placeholder" class="rounded-circle">
+        </div>
+      </div>
+      <div class="row d-flex justify-content-md-center align-items-center">
+        <div class="col-sm-4">
+          <img src="https://oie.msu.edu/_assets/images/placeholder/placeholder-200x200.jpg" alt="placeholder" class="rounded-circle">
+        </div>
+        <div class="col-sm-4">
+          <img src="https://oie.msu.edu/_assets/images/placeholder/placeholder-200x200.jpg" alt="placeholder" class="rounded-circle">
+        </div>
+        <div class="col-sm-4">
+          <img src="https://oie.msu.edu/_assets/images/placeholder/placeholder-200x200.jpg" alt="placeholder" class="rounded-circle">
+        </div>
+      </div>
+    </div>
 
-    <main id="gallery">
-      <h1>The Gallery</h1>
-      <a href="#"><img src="https://www.bing.com/th?id=OIP.2DEOv5R5-clMQxZ99vxmywHaHa&pid=Api"></a>
-      <a href="#"><img src="https://www.bing.com/th?id=OIP.2DEOv5R5-clMQxZ99vxmywHaHa&pid=Api"></a>
-      <a href="#"><img src="https://www.bing.com/th?id=OIP.2DEOv5R5-clMQxZ99vxmywHaHa&pid=Api"></a>
-      <a href="#"><img src="https://www.bing.com/th?id=OIP.2DEOv5R5-clMQxZ99vxmywHaHa&pid=Api"></a>
-      <a href="#"><img src="https://www.bing.com/th?id=OIP.2DEOv5R5-clMQxZ99vxmywHaHa&pid=Api"></a>
-      <a href="#"><img src="https://www.bing.com/th?id=OIP.2DEOv5R5-clMQxZ99vxmywHaHa&pid=Api"></a>
-    </main>
 
-    <footer id="contact">
-      <h1>Contact Me!</h1>
-      <p>I you would like to get in touch, please fill out this form</p>
-      <form>
-        Name:<br>
-        <input type="text" name="name"><br>
-        Email:<br>
-        <input type="email" name="email"><br>
-        Message:<br>
-        <textarea name="message" rows="10" cols="30">
-        </textarea><br>
-        <input type="submit" value="Submit">
-      </form>
-    </footer>
+    <!-- Contact section -->
+    <div class="container-fluid" id="contact">
+      <div class="d-flex justify-content-md-center align-items-center">
+        <button class="mdc-button mdc-button--raised foo-button">
+          <div class="mdc-button__ripple"></div>
+          <span class="mdc-button__label">Contact Me</span>
+        </button>
+      </div>
+    </div>
 
+    <!-- Javascript for bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

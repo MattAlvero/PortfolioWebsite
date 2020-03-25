@@ -1,30 +1,11 @@
-/* Header Stuff */
-.topnav
-{
-  background-color: black;
-  overflow: hidden;
+body {
+  padding-top: 65px;
 }
-.topnav a
-{
-  float: right;
-  display: block;
-  color: #f2f2f2;
+#about {
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  display: inline-block;
 }
-.topnav a:hover
-{
-  background-color: #ddd;
-  color: black;
-}
-.active
-{
-  background-color: #0064b5;
-  color: white;
-}
-.topnav .icon
-{
-  display: none;
+#portfolio {
+  text-align: center;
+  display: inline-block;
 }

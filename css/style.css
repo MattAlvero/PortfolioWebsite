@@ -1,0 +1,16 @@
+body {
+  padding-top: 65px;
+}
+#about {
+  padding: 50px;
+  text-align: center;
+  display: inline-block;
+}
+#portfolio {
+  padding: 50px;
+  text-align: center;
+  display: inline-block;
+}
+#contact {
+  padding: 50px;
+}

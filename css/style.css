@@ -2,15 +2,47 @@ body {
   padding-top: 65px;
 }
 #about {
-  padding: 50px;
+  padding: 75px;
   text-align: center;
   display: inline-block;
 }
 #portfolio {
-  padding: 50px;
+  padding: 75px;
   text-align: center;
   display: inline-block;
 }
 #contact {
-  padding: 50px;
+  padding: 75px;
+  text-align: center;
+  display: inline-block;
+}
+.portfolio-imgs {
+  height: 200px;
+  width: 200px;
+}
+/* Style all font awesome icons */
+.fab, .fas {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fas:hover, .fab:hover{
+  opacity: 0.7;
+}
+.fa-github {
+  color: #211F2F;
+}
+.fa-linkedin {
+  color: #0072B1;
+}
+.fa-envelope-square {
+  color: #F1D592;
+}
+.fa-file {
+  color: black;
 }

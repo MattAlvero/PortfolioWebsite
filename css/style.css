@@ -6,6 +6,14 @@ body {
   text-align: center;
   display: inline-block;
 }
+#experience {
+  padding: 75px;
+  text-align: center;
+  display: inline-block;
+}
+#walshexp {
+  padding: 25px;
+}
 #portfolio {
   padding: 75px;
   text-align: center;

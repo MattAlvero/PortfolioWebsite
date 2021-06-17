@@ -1,25 +1,36 @@
 body {
-  padding-top: 65px;
+  padding-top: 56px;
 }
 #about {
+  background-color: #5AA9E6;
   padding: 75px;
   text-align: center;
   display: inline-block;
 }
 #experience {
+  background-color: #033F63;
   padding: 75px;
   text-align: center;
   display: inline-block;
+  color: white;
 }
 #walshexp {
   padding: 25px;
 }
 #portfolio {
+  background-color: #0EAD69;
+  padding: 75px;
+  text-align: center;
+  display: inline-block;
+}
+#links {
+  background-color: #FFFFFF;
   padding: 75px;
   text-align: center;
   display: inline-block;
 }
 #contact {
+  background-color: #5AA9E6;
   padding: 75px;
   text-align: center;
   display: inline-block;
@@ -36,6 +47,10 @@ body {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+}
+.me-pic {
+  max-width: 60%;
+  height: auto;
 }
 
 /* Add a hover effect if you want */

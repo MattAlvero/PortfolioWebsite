@@ -29,13 +29,19 @@
       <div class="collapse navbar-collapse" id="navItems">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="toAbout" data-toggle="collapse" data-target=".navbar-collapse.show">About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" id="toExp" data-toggle="collapse" data-target=".navbar-collapse.show">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Links</a>
+            <a class="nav-link" id="toPortfolio" data-toggle="collapse" data-target=".navbar-collapse.show">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="toLinks" data-toggle="collapse" data-target=".navbar-collapse.show">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="toContact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -52,7 +58,7 @@
         portfolio website!</p>
         </div>
         <div class="col-sm-6">
-          <img src="images/me.jpg" alt="Picture of me" class="img-thumbnail img-fluid rounded-circle">
+          <img src="images/me.jpg" alt="Picture of me" class="img-thumbnail img-fluid rounded-circle me-pic">
         </div>
       </div>
     </div>
@@ -60,7 +66,9 @@
     <!-- Experience Section -->
     <div class="container-fluid" id="experience">
       <div class="row d-flex justify-content-md-center align-items-center">
-        <h1>Experience</h1>
+        <div class="col-sm-12">
+          <h1>Experience</h1>
+        </div>
       </div>
       <div class="row d-flex justify-content-md-center align-items-center" id="walshexp">
         <div class="col-sm-12">
@@ -75,7 +83,9 @@
     <!-- Portfolio Section -->
     <div class="container-fluid" id="portfolio">
       <div class="row d-flex justify-content-md-center align-items-center">
-        <h1>Portfolio</h1>
+        <div class="col-sm-12">
+          <h1>Portfolio</h1>
+        </div>
       </div>
       <div class="row d-flex justify-content-md-center align-items-center">
         <div class="col-sm-4">
@@ -102,10 +112,12 @@
       </div>
     </div>
 
-    <!-- Contact section -->
-    <div class="container-fluid" id="contact">
+    <!-- Links section -->
+    <div class="container-fluid" id="links">
       <div class="row d-flex justify-content-md-center align-items-center">
-        <h1>Links</h1>
+        <div class ="col-sm-12">
+          <h1>Links</h1>
+        </div>
       </div>
       <div class="row d-flex justify-content-md-center align-items-center">
         <div class="col-sm-3">
@@ -118,7 +130,29 @@
           <a href="mailto:malver2@uic.edu"><i class="fas fa-envelope-square fa-3x"></i></a>
         </div>
         <div class="col-sm-3">
-          <a href="https://docs.google.com/document/d/17OURTJ8xejL5WIU183j-xtOOPoaT0BNBGtFfU250XN8/edit?usp=sharing"><i class="fas fa-file fa-3x"></i></a>
+          <a href="https://docs.google.com/document/d/17OURTJ8xejL5WIU183j-xtOOPoaT0BNBGtFfU250XN8/edit?usp=sharing"><i class="fas fa-file fa-3x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container-fluid" id="contact">
+      <div class="row d-flex justify-content-md-center align-items-center">
+        <div class="col-sm-12">
+          <h1>Contact Me</h1>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-md-center align-items-center">
+        <div class="col-sm-12">
+          <form>
+            <label for="name">Full name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="comment">Message</label><br>
+            <textarea id="comment" name="Message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit" id="MessageSubmit">
+          </form>
         </div>
       </div>
     </div>
@@ -127,7 +161,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script>
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
